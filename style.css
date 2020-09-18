@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #35424a;
+    border-bottom: 4px solid coral;
+    
+}
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    float: left;
+    
+    
+    
+}
+#header .logo {
+    color: coral;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    
+    
+}
+.navbar {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 30%;
+    
+    
+    
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(./img/nexus.jpg);
+    background-size: cover;
+    background-position: center px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+    width: 100%;
+    
+    
+}
+
+#newsletter .left {
+    float: left;
+}
+#newsletter .right {
+    float: right;
+}
+
+#newsletter input {
+    padding: 5px;
+    border-radius: 5px;
+}
+.button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: coral;
+    margin-left: 5px;
+}
+
+#courses {
+    padding: 30px 0;
+}
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.box img {
+    max-width: 100%;
+    width: 130px;
+}
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 30px 0;
+    text-align: center ;
+    background-color: coral;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+.bg-dark {
+    background-color: #35424a;
+    color: #fff;
+    padding: 15px;
+}
